@@ -21,7 +21,7 @@ import AuthProvider from './context/auth';
 import SinglePost from './pages/SinglePost';
 
 const httpLink = createHttpLink({
-  uri: 'http://localhost:5000',
+  uri: 'https://cryptic-everglades-92563.herokuapp.com/',
 });
 
 const authLink = setContext((_, { headers }) => {
